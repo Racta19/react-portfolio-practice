@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+//jshint esversion:6
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />; 
 }
 
-export default MyApp
+export default MyApp;
